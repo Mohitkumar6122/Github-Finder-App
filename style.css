@@ -4,6 +4,20 @@ body {
   font-weight: 500;
 }
 
+.form-control, :focus{
+  border:2px solid black;
+}
+.form-control:focus{
+  border:1px solid gray;
+  box-shadow: 0 0 10px #719ECE;
+}
+.lead{
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.heart{
+  color: red;
+}
 body > div {
   width: 70%;
   margin: 0 auto;

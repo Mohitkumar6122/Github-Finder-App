@@ -6,6 +6,11 @@ class UI {
 
   // display profile and ui
   showProfile(user) {
+    console.log(user);
+  
+    const options = { month: "long", day: "numeric", year: "numeric" };
+    const date = new Date(user.created_at);
+    const time = new Intl.DateTimeFormat("en-IN", options).format(date);
     this.profile.innerHTML = `
     <div class="card card-body mt-4">
       <div class="row">
@@ -23,8 +28,8 @@ class UI {
           <ul class="list-group">
             <li class="list-group-item">Company : ${user.company}</li>
             <li class="list-group-item">Website/Blog : ${user.blog}</li>
-            <li class="list-group-item">Location : ${user.location}</li>
-            <li class="list-group-item">Member Since : ${user.created_at}</li>
+            <li class="list-group-item">Location : ${user.location == null ? 'International' : user.location}</li>
+            <li class="list-group-item">Member Since : ${time}</li>
         </div>
       </div>
 

@@ -3,6 +3,6 @@
 #### displays its most recent repositories
 
 #### This app make use of github API to fetch the username and repositories.
-#### You can learn about [Github API](https://docs.github.com/en/rest) from here : 
+#### You can learn about [Github API](https://docs.github.com/en/rest) from here 
 
-#### Click here for live preview
+#### [Click here](https://mohitkumar6122.github.io/Github-Finder-App/) for live preview
