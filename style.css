@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+body > div {
+  width: 70%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.1rem !important;
+}
+
+hr {
+  text-align: center;
+  width: 50%;
+}
+
+footer > p {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 550px) {
+  body > div {
+    width: 80%;
+  }
+}
